@@ -1,43 +1,53 @@
 [
   {
     "title": "Introduction",
-    "identifier": "introduction"
+    "slug": "introduction",
+    "file": "introduction.md"
   },
   {
     "title": "Dictionary",
-    "identifier": "dictionary"
+    "slug": "dictionary",
+    "file": "dictionary.md"
   },
   {
     "title": "Collections",
-    "identifier": "collections"
+    "slug": "collections",
+    "file": "collections.md"
   },
   {
     "title": "Attributes",
-    "identifier": "attributes"
+    "slug": "attributes",
+    "file": "attributes.md"
   },
   {
     "title": "Accounts",
-    "identifier": "accounts"
+    "slug": "accounts",
+    "file": "accounts.md"
   },
   {
     "title": "Configuration",
-    "identifier": "configuration"
+    "slug": "configuration",
+    "file": "configuration.md"
   },
   {
     "title": "Filesystem",
-    "identifier": "filesystem"
+    "slug": "filesystem",
+    "file": "filesystem.md"
   },
   {
     "title": "Relationships",
-    "identifier": "relationships"
+    "slug": "relationships",
+    "file": "relationships.md"
   },
   {
     "title": "File Attribute",
-    "identifier": "file-attribute"
+    "slug": "file-attribute",
+    "file": "file-attribute.md"
   },
   {
     "title": "Text Editors",
-    "identifier": "text-editors"
+    "slug": "text-editors",
+    "file": "introduction.md"
   }
 
 ]
