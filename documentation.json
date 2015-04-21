@@ -1,43 +1,43 @@
 [
   {
     "title": "Introduction",
-    "identifier": "introduction",
+    "identifier": "introduction"
   },
   {
     "title": "Dictionary",
-    "identifier": "dictionary",
+    "identifier": "dictionary"
   },
   {
     "title": "Collections",
-    "identifier": "collections",
+    "identifier": "collections"
   },
   {
     "title": "Attributes",
-    "identifier": "attributes",
+    "identifier": "attributes"
   },
   {
     "title": "Accounts",
-    "identifier": "accounts",
+    "identifier": "accounts"
   },
   {
     "title": "Configuration",
-    "identifier": "configuration",
+    "identifier": "configuration"
   },
   {
     "title": "Filesystem",
-    "identifier": "filesystem",
+    "identifier": "filesystem"
   },
   {
     "title": "Relationships",
-    "identifier": "relationships",
+    "identifier": "relationships"
   },
   {
     "title": "File Attribute",
-    "identifier": "file-attribute",
+    "identifier": "file-attribute"
   },
   {
     "title": "Text Editors",
-    "identifier": "text-editors",
-  },
+    "identifier": "text-editors"
+  }
 
 ]
