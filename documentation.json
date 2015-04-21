@@ -26,8 +26,8 @@
   },
   {
     "title": "Configuration",
-    "slug": "configuration",
-    "file": "configuration.md"
+    "slug": "config",
+    "file": "config.md"
   },
   {
     "title": "Filesystem",
