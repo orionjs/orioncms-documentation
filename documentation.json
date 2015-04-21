@@ -47,6 +47,10 @@
         {
           "title": "Introduction",
           "slug": "filesystem"
+        },
+        {
+          "title": "Providers",
+          "slug": "filesystem-providers"
         }
       ]
     }
@@ -68,39 +72,44 @@
       "file": "collections.md"
     },
     {
-      "title": "Attributes",
-      "slug": "attributes",
-      "file": "attributes.md"
-    },
-    {
       "title": "Accounts",
       "slug": "accounts",
       "file": "accounts.md"
     },
     {
       "title": "Configuration",
-      "slug": "config",
-      "file": "config.md"
+      "slug": "configuration",
+      "file": "configuration.md"
     },
     {
       "title": "Filesystem",
       "slug": "filesystem",
-      "file": "filesystem.md"
+      "file": "filesystem/introduction.md"
+    },
+    {
+      "title": "Filesystem",
+      "slug": "filesystem-providers",
+      "file": "filesystem/providers.md"
+    },
+    {
+      "title": "Attributes",
+      "slug": "attributes",
+      "file": "attributes/introduction.md"
     },
     {
       "title": "Relationships",
       "slug": "relationships",
-      "file": "relationships.md"
+      "file": "attributes/relationships.md"
     },
     {
       "title": "File Attribute",
       "slug": "file-attribute",
-      "file": "file-attribute.md"
+      "file": "attributes/file-attribute.md"
     },
     {
       "title": "Text Editors",
       "slug": "text-editors",
-      "file": "introduction.md"
+      "file": "attributes/text-editors.md"
     }
   ]
 }
