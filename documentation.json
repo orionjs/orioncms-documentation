@@ -1,53 +1,106 @@
-[
-  {
-    "title": "Introduction",
-    "slug": "introduction",
-    "file": "introduction.md"
-  },
-  {
-    "title": "Dictionary",
-    "slug": "dictionary",
-    "file": "dictionary.md"
-  },
-  {
-    "title": "Collections",
-    "slug": "collections",
-    "file": "collections.md"
-  },
-  {
-    "title": "Attributes",
-    "slug": "attributes",
-    "file": "attributes.md"
-  },
-  {
-    "title": "Accounts",
-    "slug": "accounts",
-    "file": "accounts.md"
-  },
-  {
-    "title": "Configuration",
-    "slug": "config",
-    "file": "config.md"
-  },
-  {
-    "title": "Filesystem",
-    "slug": "filesystem",
-    "file": "filesystem.md"
-  },
-  {
-    "title": "Relationships",
-    "slug": "relationships",
-    "file": "relationships.md"
-  },
-  {
-    "title": "File Attribute",
-    "slug": "file-attribute",
-    "file": "file-attribute.md"
-  },
-  {
-    "title": "Text Editors",
-    "slug": "text-editors",
-    "file": "introduction.md"
-  }
-
-]
+{
+  "links": [
+    {
+      "title": "Introduction",
+      "slug": "introduction"
+    },
+    {
+      "title": "Dictionary",
+      "slug": "dictionary"
+    },
+    {
+      "title": "Collections",
+      "slug": "collections"
+    },
+    {
+      "title": "Attributes",
+      "childs": [
+        {
+          "title": "Introduction",
+          "slug": "attributes"
+        },
+        {
+          "title": "Relationships",
+          "slug": "relationships"
+        },
+        {
+          "title": "Files",
+          "slug": "file-attribute"
+        },
+        {
+          "title": "Text Editors",
+          "slug": "text-editors"
+        }
+      ]
+    },
+    {
+      "title": "Accounts",
+      "slug": "accounts"
+    },
+    {
+      "title": "Configuration",
+      "slug": "config",
+    },
+    {
+      "title": "Filesystem",
+      "childs": [
+        {
+          "title": "Introduction",
+          "slug": "filesystem"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "title": "Introduction",
+      "slug": "introduction",
+      "file": "introduction.md"
+    },
+    {
+      "title": "Dictionary",
+      "slug": "dictionary",
+      "file": "dictionary.md"
+    },
+    {
+      "title": "Collections",
+      "slug": "collections",
+      "file": "collections.md"
+    },
+    {
+      "title": "Attributes",
+      "slug": "attributes",
+      "file": "attributes.md"
+    },
+    {
+      "title": "Accounts",
+      "slug": "accounts",
+      "file": "accounts.md"
+    },
+    {
+      "title": "Configuration",
+      "slug": "config",
+      "file": "config.md"
+    },
+    {
+      "title": "Filesystem",
+      "slug": "filesystem",
+      "file": "filesystem.md"
+    },
+    {
+      "title": "Relationships",
+      "slug": "relationships",
+      "file": "relationships.md"
+    },
+    {
+      "title": "File Attribute",
+      "slug": "file-attribute",
+      "file": "file-attribute.md"
+    },
+    {
+      "title": "Text Editors",
+      "slug": "text-editors",
+      "file": "introduction.md"
+    }
+  ]
+}
