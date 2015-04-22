@@ -53,7 +53,22 @@
           "slug": "filesystem-providers"
         }
       ]
-    }
+    },
+    {
+      "title": "Api",
+      "slug": "api"
+    },
+    {
+      "title": "Languages",
+      "slug": "languages"
+    },
+
+    {
+      "title": "Pages",
+      "slug": "pages"
+    },
+
+
   ],
   "pages": [
     {
@@ -77,6 +92,11 @@
       "file": "accounts.md"
     },
     {
+      "title": "Api",
+      "slug": "api",
+      "file": "api.md"
+    },
+    {
       "title": "Configuration",
       "slug": "configuration",
       "file": "configuration.md"
@@ -97,6 +117,17 @@
       "file": "attributes/introduction.md"
     },
     {
+      "title": "Languages",
+      "slug": "languages",
+      "file": "languages.md"
+    },
+    {
+      "title": "Pages",
+      "slug": "pages",
+      "file": "pages.md"
+    },
+
+    {
       "title": "Relationships",
       "slug": "relationships",
       "file": "attributes/relationships.md"
@@ -110,6 +141,6 @@
       "title": "Text Editors",
       "slug": "text-editors",
       "file": "attributes/text-editors.md"
-    }
+    },
   ]
 }
