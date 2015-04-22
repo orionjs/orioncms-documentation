@@ -1,0 +1,124 @@
+{
+  "links": [
+    {
+      "title": "Introduction",
+      "slug": "introduction"
+    },
+    {
+      "title": "Dictionary",
+      "slug": "dictionary"
+    },
+    {
+      "title": "Collections",
+      "slug": "collections"
+    },
+    {
+      "title": "Attributes",
+      "childs": [
+        {
+          "title": "Introduction",
+          "slug": "attributes"
+        },
+        {
+          "title": "Relationships",
+          "slug": "relationships"
+        },
+        {
+          "title": "Files",
+          "slug": "file-attribute"
+        },
+        {
+          "title": "Text Editors",
+          "slug": "text-editors"
+        },
+        {
+          "title": "Created By",
+          "slug": "created-by"
+        }
+      ]
+    },
+    {
+      "title": "Accounts",
+      "slug": "accounts"
+    },
+    {
+      "title": "Configuration",
+      "slug": "configuration"
+    },
+    {
+      "title": "Filesystem",
+      "childs": [
+        {
+          "title": "Introduction",
+          "slug": "filesystem"
+        },
+        {
+          "title": "Providers",
+          "slug": "filesystem-providers"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "title": "Introduction",
+      "slug": "introduction",
+      "file": "introduction.md"
+    },
+    {
+      "title": "Dictionary",
+      "slug": "dictionary",
+      "file": "dictionary.md"
+    },
+    {
+      "title": "Collections",
+      "slug": "collections",
+      "file": "collections.md"
+    },
+    {
+      "title": "Accounts",
+      "slug": "accounts",
+      "file": "accounts.md"
+    },
+    {
+      "title": "Configuration",
+      "slug": "configuration",
+      "file": "configuration.md"
+    },
+    {
+      "title": "Filesystem",
+      "slug": "filesystem",
+      "file": "filesystem/introduction.md"
+    },
+    {
+      "title": "Filesystem",
+      "slug": "filesystem-providers",
+      "file": "filesystem/providers.md"
+    },
+    {
+      "title": "Attributes",
+      "slug": "attributes",
+      "file": "attributes/introduction.md"
+    },
+    {
+      "title": "Relationships",
+      "slug": "relationships",
+      "file": "attributes/relationships.md"
+    },
+    {
+      "title": "File Attribute",
+      "slug": "file-attribute",
+      "file": "attributes/file-attribute.md"
+    },
+    {
+      "title": "Text Editors",
+      "slug": "text-editors",
+      "file": "attributes/text-editors.md"
+    },
+    {
+      "title": "Created By",
+      "slug": "created-by",
+      "file": "attributes/created-by.md"
+    }
+  ]
+}
