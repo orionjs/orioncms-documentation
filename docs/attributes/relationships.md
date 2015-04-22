@@ -90,7 +90,7 @@ this is automatically set.
 
 - ```createFilter``` **Function**. Optional. Specifies a RegExp or String containing a regular expression that the current search filter must match to be allowed to be created. May also be a predicate function that takes the filter text and returns whether it is allowed.
 
-- ```render``` **Object**. Optional. Custom render functions for the select. Check [here](https://github.com/brianreavis/selectize.js/blob/master/docs/usage.md#rendering). You must set ```option``` and ```item```.`
+- ```render``` **Object**. Optional. Custom render functions for the select. Check [here](https://github.com/brianreavis/selectize.js/blob/master/docs/usage.md#rendering). You must set ```option``` and ```item```.
 
 ## Examples
 
