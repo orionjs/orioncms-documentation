@@ -12,13 +12,11 @@ This attributes are a **String**.
 
 ## Getting Started
 
-```
-meteor add orionjs:summernote
-```
+```meteor add orionjs:summernote```
+
 or
-``` 
-meteor add orionjs:froala-editor
-```
+
+```meteor add orionjs:froala-editor```
 
 ## Examples
 
