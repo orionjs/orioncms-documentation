@@ -30,6 +30,10 @@
         {
           "title": "Text Editors",
           "slug": "text-editors"
+        },
+        {
+          "title": "Created By",
+          "slug": "created-by"
         }
       ]
     },
@@ -110,6 +114,11 @@
       "title": "Text Editors",
       "slug": "text-editors",
       "file": "attributes/text-editors.md"
+    },
+    {
+      "title": "Created By",
+      "slug": "created-by",
+      "file": "attributes/created-by.md"
     }
   ]
 }
