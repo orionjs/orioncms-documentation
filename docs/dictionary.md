@@ -20,11 +20,9 @@ orion.dictionary.addDefinition(name, category, attributeSchema)
 ```
 
 - ```name``` **String**. This is the name of the definition.
-When you want to access the value of the definition you have to
-use the **name**.
 
-- ```category``` **String**. The only purpose of the category is to
-organize the definitions in the admin panel.
+- ```category``` **String**. The category of the definition.
+In the admin the form will be separated by categories.
 
 - ```attributeSchema``` **[Attribute](https://github.com/orionjs/core/tree/master/attributes)**. Here is where you customize the
 definition. Set it to String, Image, HTML, or anything!
@@ -32,7 +30,7 @@ definition. Set it to String, Image, HTML, or anything!
 Example:
 
 ```js
-orion.dictionary.addDefinition('siteDescription', 'descriptions', {
+orion.dictionary.addDefinition('description', 'site', {
     type: String,
     label: "Description"
 });
@@ -51,7 +49,7 @@ will return if the definition is not set or its empty
 
 ```html
 <template name="example">
-  {{ dict 'siteDescription' 'No description' }}
+  {{ dict 'site.description' 'No description' }}
 </template>
 ```
 
@@ -61,5 +59,5 @@ Sometimes you might need to use the dictionary in template helpers
 or other javascript files.
 
 ```js
-var description = orion.dictionary.get('siteDescription', 'No description');
+var description = orion.dictionary.get('site.description', 'No description');
 ```
