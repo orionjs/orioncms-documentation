@@ -43,7 +43,12 @@
     },
     {
       "title": "Accounts",
-      "slug": "accounts"
+      "childs": [
+        {
+          "title": "Introduction",
+          "slug": "accounts"
+        }
+      ]
     },
     {
       "title": "Configuration",
@@ -87,7 +92,7 @@
     {
       "title": "Accounts",
       "slug": "accounts",
-      "file": "accounts.md"
+      "file": "accounts/introduction.md"
     },
     {
       "title": "Configuration",
