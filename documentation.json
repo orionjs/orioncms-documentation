@@ -13,6 +13,10 @@
       "slug": "collections"
     },
     {
+      "title": "Pages",
+      "slug": "pages"
+    },
+    {
       "title": "Attributes",
       "childs": [
         {
@@ -76,6 +80,11 @@
       "file": "collections.md"
     },
     {
+      "title": "Pages",
+      "slug": "pages",
+      "file": "pages.md"
+    },
+    {
       "title": "Accounts",
       "slug": "accounts",
       "file": "accounts.md"
@@ -91,7 +100,7 @@
       "file": "filesystem/introduction.md"
     },
     {
-      "title": "Filesystem",
+      "title": "Filesystem Providers",
       "slug": "filesystem-providers",
       "file": "filesystem/providers.md"
     },
