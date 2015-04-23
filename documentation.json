@@ -47,6 +47,10 @@
         {
           "title": "Introduction",
           "slug": "accounts"
+        },
+        {
+          "title": "Roles",
+          "slug": "roles"
         }
       ]
     },
@@ -93,6 +97,11 @@
       "title": "Accounts",
       "slug": "accounts",
       "file": "accounts/introduction.md"
+    },
+    {
+      "title": "Roles",
+      "slug": "roles",
+      "file": "accounts/roles.md"
     },
     {
       "title": "Configuration",
