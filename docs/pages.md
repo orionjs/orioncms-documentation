@@ -1,6 +1,8 @@
 Orion Pages
 ===========
 
+> This is not updated to orion v1.0
+
 Create new routes with custom templates right in the admin.
 
 ## Getting Started

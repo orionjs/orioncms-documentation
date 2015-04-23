@@ -1,5 +1,7 @@
 # Accounts
 
+> This is not updated to orion v1.0
+
 Orion users covers from creation to roles, everything is
 very simple to use.
 
