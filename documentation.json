@@ -24,6 +24,10 @@
           "slug": "attributes"
         },
         {
+          "title": "Basic",
+          "slug": "basic-attributes"
+        },
+        {
           "title": "Relationships",
           "slug": "relationships"
         },
@@ -34,10 +38,6 @@
         {
           "title": "Text Editors",
           "slug": "text-editors"
-        },
-        {
-          "title": "Created By",
-          "slug": "created-by"
         }
       ]
     },
@@ -125,9 +125,9 @@
       "file": "attributes/text-editors.md"
     },
     {
-      "title": "Created By",
-      "slug": "created-by",
-      "file": "attributes/created-by.md"
+      "title": "Basic Attributes",
+      "slug": "basic-attributes",
+      "file": "attributes/basic-attributes.md"
     }
   ]
 }
