@@ -3,8 +3,5 @@
   "version": "1.0.0",
   "scripts": {
     "test": "mocha"
-  },
-  "devDependencies": {
-    "mocha": "^1.17.1"
   }
 }
