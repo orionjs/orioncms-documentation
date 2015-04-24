@@ -50,7 +50,7 @@ Stores.attachSchema(new SimpleSchema({
   group: orion.attribute('hasOne', {
     label: 'Group'
   }, {
-    entity: Groups,
+    collection: Groups,
     titleField: 'name',
     publicationName: 'youCanPutAnyStringYouWantHere',
   })
