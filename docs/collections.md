@@ -4,8 +4,8 @@ Introduction to collections
 
 ## Getting Started
 
-To create a orion collection just replace ```Mongo.Collection``` with 
-```orion.collection```, the rest will be done automatically.
+To create a orion collection just replace ```Mongo.Collection``` with ```orion.collection```, 
+the rest will be done automatically.
 
 ```js
 myCollection = new orion.collection(name, options);
