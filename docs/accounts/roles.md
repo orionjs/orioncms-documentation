@@ -65,7 +65,7 @@ Here is a list of the available actions.
 
 **Collections**
 
-```myCollection``` is the name of the collection.
+Where ```myCollection``` is the name of the collection.
 
 - ```collection.myCollection.index``` View the list of items of the collection in the admin.
 - ```collection.myCollection.insert``` Create documents of that collection. Input: ```userId, doc```.
