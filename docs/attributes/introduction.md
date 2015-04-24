@@ -141,9 +141,9 @@ orion.attributes.registerAttribute(name, options)
 
 ***Options***
 
-- ```template```, ```valueIn```, ```valueOut```,
-```valueConverters```, ```contextAdjust``` are passed directly to
-[autoform](https://github.com/aldeed/meteor-autoform), check here https://github.com/aldeed/meteor-autoform#defining-custom-input-types.
+- ```template```, ```valueIn```, ```valueOut```, ```valueConverters```, ```contextAdjust``` 
+are passed directly to [autoform](https://github.com/aldeed/meteor-autoform), 
+check here https://github.com/aldeed/meteor-autoform#defining-custom-input-types.
 
 - ```columnTemplate``` **String**. The name of the template to display
 on the entity list table. The value of the attribute will be the data of

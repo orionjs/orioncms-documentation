@@ -89,7 +89,7 @@ Here is a list of the helpers that orion use.
 
 **Collections**
 
-```myCollection``` is the name of the collection.
+Where ```myCollection``` is the name of the collection.
 
 - ```collection.myCollection.indexFilter``` The filter of the results that the user can view in the admin. 
 Example: ```{ createdBy: this.userId }```. Filters will be joined with $or comparator.

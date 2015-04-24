@@ -27,10 +27,32 @@ describe('documentation.json', function(){
 
     pages.forEach(function (page) {
       describe(page.file, function() {
-        it('should not be empty', function() {
+        it('should exist', function() {
           var fileContents = fs.readFileSync('./docs/' + page.file, 'utf8');
+        })
+
+        var fileContents;
+
+        try {
+          fileContents = fs.readFileSync('./docs/' + page.file, 'utf8');
+        } catch (e) {
+          return;
+        }
+
+        if (!fileContents) {
+          return;
+        }
+
+        it('should not be empty', function() {
           if (!fileContents) {
             throw Error('file "' + page.file + '" is empty');
+          }
+        });
+
+        it('should not generate errors with highlightjs', function() {
+          var re = /\n```.*```/g; 
+          if (re.test(fileContents)) {
+            throw Error('code without language should not start in a new line');
           }
         });
       })
