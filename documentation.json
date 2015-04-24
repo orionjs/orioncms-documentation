@@ -5,16 +5,25 @@
       "slug": "introduction"
     },
     {
+      "title": "Accounts",
+      "childs": [
+        {
+          "title": "Introduction",
+          "slug": "accounts"
+        },
+        {
+          "title": "Roles",
+          "slug": "roles"
+        }
+      ]
+    },
+    {
       "title": "Dictionary",
       "slug": "dictionary"
     },
     {
       "title": "Collections",
       "slug": "collections"
-    },
-    {
-      "title": "Pages",
-      "slug": "pages"
     },
     {
       "title": "Attributes",
@@ -42,20 +51,11 @@
       ]
     },
     {
-      "title": "Accounts",
-      "childs": [
-        {
-          "title": "Introduction",
-          "slug": "accounts"
-        },
-        {
-          "title": "Roles",
-          "slug": "roles"
-        }
-      ]
+      "title": "Pages",
+      "slug": "pages"
     },
     {
-      "title": "Configuration",
+      "title": "App Configuration",
       "slug": "configuration"
     },
     {
