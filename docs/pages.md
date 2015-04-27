@@ -1,8 +1,6 @@
 Orion Pages
 ===========
 
-> This is not updated to orion v1.0
-
 Create new routes with custom templates right in the admin.
 
 ## Getting Started
@@ -80,7 +78,7 @@ To list pages you have to **subscribe**.
 
 ```js
 // This
-orion.subs.subscribe('pages', arg1, arg2);
+Meteor.subscribe('pages', arg1, arg2);
 // Will return this
 orion.pages.collection.find(arg1, arg2);
 ```
