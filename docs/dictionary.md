@@ -24,7 +24,7 @@ orion.dictionary.addDefinition(name, category, attributeSchema)
 - ```category``` **String**. The category of the definition.
 In the admin the form will be separated by categories.
 
-- ```attributeSchema``` **[Attribute](https://github.com/orionjs/core/tree/master/attributes)**. Here is where you customize the
+- ```attributeSchema``` **Attribute**. Here is where you customize the
 definition. Set it to String, Image, HTML, or anything!
 
 Example:
