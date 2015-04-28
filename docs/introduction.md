@@ -29,11 +29,11 @@ meteor add orionjs:materialize
 
 #### Preview
 
-http://orion-example.meteor.com
+[orion-example.meteor.com](http://orion-example.meteor.com)
 
 #### Roadmap
 
-https://trello.com/b/dQhi5dF9/orion-roadmap
+[trello.com/b/dQhi5dF9/orion-roadmap](https://trello.com/b/dQhi5dF9/orion-roadmap)
 
 #### Newsletter
 
