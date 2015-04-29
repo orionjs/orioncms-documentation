@@ -19,7 +19,7 @@ meteor add orionjs:summernote
 or
 
 ```sh
-meteor add orionjs:froala-editor
+meteor add orionjs:froala
 ```
 
 ## Examples
