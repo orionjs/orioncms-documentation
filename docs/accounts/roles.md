@@ -7,12 +7,13 @@ allow/deny rules for that action.
 You can check the full documentation of ```nicolaslopezj:roles``` [here](http://github.com/nicolaslopezj/roles).
 
 ## Creating roles
-
+To create a new role
 ```js
 myRole = new Roles.Role('my-role');
 ```
 
-Then you can set custom roles for that specific role
+## Role Allow/Deny Rules
+You can then set custom allow/deny rules for specific roles to allow/deny users with the role certain actions
 
 ```js
 myRole.allow(action, rule);
@@ -24,7 +25,7 @@ myRole.deny(action, rule);
 - ```rule``` **Function**. Must return true/false. The input of the function depends of the context.
 To get the userId in the function you can call ```this.userId```.
 
-Example:
+For example:
 
 ```js
 myRole.allow('collection.posts.update', function(userId, doc, fields, modifier) {
@@ -34,7 +35,7 @@ myRole.deny('collection.posts.update', function(userId, doc, fields, modifier) {
   return !_.contains(fields, 'userId'); // Can't change the userId field
 });
 ```
-
+## Role Helper Functions
 You can also set helpers for your role
 
 ```js
@@ -55,7 +56,7 @@ myRole.helper('dictionary.allowedCategories', function() {
 
 ## Actions
 
-Here is a list of the available actions.
+Below is a list of the available actions for users. These Actions are essentially a list of privileges for logged in users.
 
 **Accounts**
 
@@ -85,7 +86,7 @@ Where ```myCollection``` is the name of the collection.
 
 ## Helpers
 
-Here is a list of the helpers that orion use.
+Below is a list of the helpers that Orion uses.
 
 **Collections**
 

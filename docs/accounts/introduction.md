@@ -1,30 +1,32 @@
 # Accounts
 
-Orion accounts
+Orion allows for you to create accounts with different roles so that users can login and manage app content and configuration.
 
 ## Creating accounts
 
 Orion has 3 ways to create accounts:
 
 - **Admin account**. By default account creation is closed, but when there is no
-admin (no user that has the admin role), Orion will allow you to create one account
-which the ```admin``` role will be added to him.
+admin (no user that has the admin role), Orion will allow you to create an account
+that will be automatically granted an ```admin``` role.
 
 - **Invitations**. The admin can invite users, you must navigate to the 
 accounts tab and press +. This will generate a invitation link which you need to
-pass to the new user. If you set a email the new user must have that email.
+pass to the new user. If you set an email address on the invitation, the new user must have access to that email address.
 
-- **Open Registration**. You can allow the public registration.
+- **Open Registration**. With Open Registration, you can allow anyone to publicly register.
 
 ### Public registration
-
-To allow anyone to register to your app the only thing to do is to set this option to ```false```.
+##### Enabling Public Registration
+To allow anyone to register an account for your app, make sure to set the ```'forbidClientAccountCreation'``` option to ```false```.
 
 ```js
 Options.set('forbidClientAccountCreation', false);
 ```
 
-New users will have no roles, unless you specify the default roles.
+##### Default Roles
+
+New users will not have any roles by default, unless you specify default roles:
 
 ```
 Options.set('defaultRoles', ['role1', 'role2']);
