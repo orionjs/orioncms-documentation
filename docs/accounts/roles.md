@@ -32,7 +32,7 @@ myRole.allow('collection.posts.update', function(userId, doc, fields, modifier) 
   return doc.createdBy === userId; // Will be allowed to edit his own posts
 });
 myRole.deny('collection.posts.update', function(userId, doc, fields, modifier) {
-  return !_.contains(fields, 'userId'); // Can't change the userId field
+  return _.contains(fields, 'userId'); // Can't change the userId field
 });
 ```
 ## Role Helper Functions
