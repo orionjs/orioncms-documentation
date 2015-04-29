@@ -14,7 +14,7 @@ meteor add orionjs:core
 And now decide which one to use
 
 ```sh
-meteor add twbs:boostrap
+meteor add twbs:bootstrap
 meteor add orionjs:bootstrap
 ```
 
