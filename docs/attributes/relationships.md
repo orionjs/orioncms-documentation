@@ -59,7 +59,7 @@ Stores.attachSchema(new SimpleSchema({
 
 ## Has Many
 
-The "has one" attribute is a **Array** that contains the selected ids of the selected items.
+The "has many" attribute is a **Array** that contains the selected ids of the selected items.
 
 ```
 orion.attribute('hasMany', schema, options)
