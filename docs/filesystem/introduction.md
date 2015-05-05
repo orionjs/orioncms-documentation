@@ -14,7 +14,7 @@ meteor add orionjs:filesystem
 
 Install a provider 
 (currently the only one is S3. 
-To use S3 need to config some things, see [here](https://github.com/orionjs/s3))
+To use S3 need to config some things, see [here](https://github.com/Lepozepo/S3/#create-your-amazon-s3))
 
 ```sh
 meteor add orionjs:s3
