@@ -21,7 +21,7 @@ meteor add orionjs:bootstrap
 or
 
 ```sh
-materialize:materialize
+meteor add materialize:materialize
 meteor add orionjs:materialize
 ```
 
