@@ -103,4 +103,4 @@ You can use it like this:
 {{/ each }}
 ```
 
-> When you call path() on a page, it will return the path to the page. Its important to use this, becouse the url might change
+> When you call path() on a page, it will return the path to the page. Its important to use this, because the url might change
