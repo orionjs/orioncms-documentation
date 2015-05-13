@@ -1,6 +1,6 @@
 # App Configuration
 
-**orion.config** is like "enviorment vars" editable in the admin.
+**orion.config** is like "enviroment vars" editable in the admin.
 When the server starts it fetches the variables from the database
 and each time the admin updates the settings the server is **restarted**.
 
