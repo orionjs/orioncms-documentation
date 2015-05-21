@@ -28,10 +28,10 @@ To get the userId in the function you can call ```this.userId```.
 For example:
 
 ```js
-myRole.allow('collection.posts.update', function(userId, doc, fields, modifier) {
+myRole.allow('collections.posts.update', function(userId, doc, fields, modifier) {
   return doc.createdBy === userId; // Will be allowed to edit his own posts
 });
-myRole.deny('collection.posts.update', function(userId, doc, fields, modifier) {
+myRole.deny('collections.posts.update', function(userId, doc, fields, modifier) {
   return !_.contains(fields, 'userId'); // Can't change the userId field
 });
 ```
@@ -68,13 +68,13 @@ Below is a list of the available actions for users. These Actions are essentiall
 
 Where ```myCollection``` is the name of the collection.
 
-- ```collection.myCollection.index``` View the list of items of the collection in the admin.
-- ```collection.myCollection.insert``` Create documents of that collection. Input: ```userId, doc```.
-- ```collection.myCollection.update``` Update a document of a collection. Input: ```userId, doc, fields, modifier```.
-- ```collection.myCollection.remove``` Remove a document. Input: ```userId, doc```.
-- ```collection.myCollection.showCreate``` Show the create button in the admin.
-- ```collection.myCollection.showUpdate``` Show the update button/sends the user to the update form. Input: ```doc```.
-- ```collection.myCollection.showUpdate``` Show the remove button. Input: ```doc```.
+- ```collections.myCollection.index``` View the list of items of the collection in the admin.
+- ```collections.myCollection.insert``` Create documents of that collection. Input: ```userId, doc```.
+- ```collections.myCollection.update``` Update a document of a collection. Input: ```userId, doc, fields, modifier```.
+- ```collections.myCollection.remove``` Remove a document. Input: ```userId, doc```.
+- ```collections.myCollection.showCreate``` Show the create button in the admin.
+- ```collections.myCollection.showUpdate``` Show the update button/sends the user to the update form. Input: ```doc```.
+- ```collections.myCollection.showUpdate``` Show the remove button. Input: ```doc```.
 
 **App Configuration**
 
@@ -92,7 +92,7 @@ Below is a list of the helpers that Orion uses.
 
 Where ```myCollection``` is the name of the collection.
 
-- ```collection.myCollection.indexFilter``` The filter of the results that the user can view in the admin. 
+- ```collections.myCollection.indexFilter``` The filter of the results that the user can view in the admin. 
 Example: ```{ createdBy: this.userId }```. Filters will be joined with $or comparator.
 
 
