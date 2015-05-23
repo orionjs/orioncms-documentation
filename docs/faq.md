@@ -1,17 +1,16 @@
 # Orion - FAQ
-## Security and Browser polycies
-For protecting your server against script injection
-and your clients against XSS attacks, we recommend
-the following packages modifications:
-```bash
+## Security and Browser policies
+For protecting your server against script injection and your clients against XSS attacks,
+we recommend adding the following packages:
+```sh
 meteor remove insecure autopublish
 meteor add audit-arguments-check browser-policy matteodem:easy-security
 ```
-* `audit-arguments-check` checks the correctness of your development ensuring you that you've carefully checked user's inputs.
-* `browser-policy` constraints modern users in not using anything else except what is precisely specified.
-* `matteodem:easy-security` is a rate limiting user's entry to avoid attacks 'à la` DDOS.
+* [audit-argument-checks](https://atmospherejs.com/meteor/audit-argument-checks) checks the correctness of your development ensuring you that you've carefully checked user's inputs.
+* [browser-policy](https://atmospherejs.com/meteor/browser-policy) constraints modern users in not using anything else except what is precisely specified.
+* [matteodem:easy-security](https://atmospherejs.com/matteodem/easy-security) rate limits method calls, to avoid attacks DDOS-like attacks.
 
-The following browser policy rules have to be set server side:
+The following browser policy rules have to be set server-side:
 **server/browserPolicy.coffee**
 ```coffee
 # Article sources:
