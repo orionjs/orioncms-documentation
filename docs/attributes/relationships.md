@@ -29,9 +29,9 @@ affect anything; just set a unique string.
 
 - `collection` **Collection**. The Meteor collection. This is not the name of the collection, but the variable.
 
-- `filter` **Function**. Optional. A function that takes the `userId` and returns the Mongo filter. Remember to add to `aditionalFields` all the fields that you use in the `filter` function.
+- `filter` **Function**. Optional. A function that takes the `userId` and returns the Mongo filter. Remember to add to `additionalFields` all the fields that you use in the `filter` function.
 
-- `aditionalFields` **Array**. Optional. Search with more fields in the select. If you want to fetch other fields than the `titleField` you must add them here.
+- `additionalFields` **Array**. Optional. Search with more fields in the select. If you want to fetch other fields than the `titleField` you must add them here.
 
 - `create` **Function**. Optional. Allows the user to create new items that aren't in the list of options. This option can be any of the following: `true`, `false` (disabled), or a function that accepts two arguments: "input" and "callback". The callback should be invoked with the final data for the option.
 
@@ -83,9 +83,9 @@ this is automatically set.
 
 - `collection` **Collection**. The Meteor collection. This is not the name of the collection, but the variable.
 
-- `filter` **Function**. Optional. A function that takes the `userId` and returns the Mongo filter. Remember to add to `aditionalFields` all the fields that you use in the `filter` function.
+- `filter` **Function**. Optional. A function that takes the `userId` and returns the Mongo filter. Remember to add to `additionalFields` all the fields that you use in the `filter` function.
 
-- `aditionalFields` **Array**. Optional. Search with more fields in the select. If you want to fetch other fields than the `titleField` you must add them here.
+- `additionalFields` **Array**. Optional. Search with more fields in the select. If you want to fetch other fields than the `titleField` you must add them here.
 
 - `create` **Function**. Optional. Allows the user to create new items that aren't in the list of options. This option can be any of the following: `true`, `false` (disabled), or a function that accepts two arguments: "input" and "callback". The callback should be invoked with the final data for the option.
 
@@ -104,7 +104,7 @@ orion.dictionary.addDefinition('topProducts', 'home',
   }, {
     collection: Products,
     titleField: 'name',
-    aditionalFields: ['active'],  // we must add the active field because we use it in the filter
+    additionalFields: ['active'],  // we must add the active field because we use it in the filter
     publicationName: 'youCanPutAnyStringYouWantHere2',
     /**
      * To return only the active products

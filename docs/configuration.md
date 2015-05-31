@@ -1,6 +1,6 @@
 # App Configuration
 
-**orion.config** is like "enviroment vars" editable in the admin.
+**orion.config** is like "enviroment vars" editable in the admin interface.
 When the server starts it fetches the variables from the database
 and each time the admin updates the settings the server is **restarted**.
 
@@ -8,7 +8,7 @@ and each time the admin updates the settings the server is **restarted**.
 
 ## Adding variables
 
-To add variables to the config call in shared code:
+To add variables to the config, call in shared code:
 
 ```js
 orion.config.add(name, category, options)
@@ -36,7 +36,7 @@ be passed to the client.
 
 ## Using the variables
 
-To get the value of the variable call in the server:
+To get the value of the variable, call in the server:
 
 ```js
 orion.config.get(name),
@@ -47,7 +47,7 @@ orion.config.get(name),
 ## Example
 
 In previous versions of orion, to upload with s3 you had to set the aws keys in the code.
-Now ```orionjs:s3``` is made to work with ```orion.config```. This is how it's made.
+Now ```orionjs:s3``` is made to work with ```orion.config```. This is how it's done:
 
 ```js
 /**

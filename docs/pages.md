@@ -1,7 +1,7 @@
 Orion Pages
 ===========
 
-Create new routes with custom templates right in the admin.
+Create new routes with custom templates right in the admin interface.
 
 ## Getting Started
 
@@ -12,25 +12,24 @@ meteor add orionjs:pages
 ```
 ### Should I use pages?
 
-Pages are not array of things. Although the developer will put them in lists (like menus or something), each item has nothing to do with the other. For example: FAQ, Contact, History of the company, etc.
+Pages are not an array of things. Although the developer will put them in lists (like menus or something), items have nothing to do with one another. For example: FAQ, Contact, History of the company, etc.
 
-Entities are definitely array of things. For example: a gallery images, blog posts, projects of the company, etc.
+Entities are definitely arrays of things. For example: a gallery of images, blog posts, projects of the company, etc.
 
 If you want to build a blog you must use entities. If in your blog you want some extra pages like contact, FAQ or maybe decide in the future, use pages for that.
 
 Of course you can do a blog or a gallery with pages, but that is not the correct way.
 
-### How this work
+### How this works
 
 First, in code you must register a template and attatch a schema to that template.
 Then, the admin will choose a template and create a new page.
-When a user request the url for that page, orion with load the template with the 
-data of the page.
+When a user requests the url for that page, orion will load the template with the data of the page.
 
 ### Create a new template
 
 To add pages you must create at least one template. 
-Each template comes with a schema (like a entity) and with 
+Each template comes with a schema (like an entity) and with 
 a meteor html template.
 
 ```js
@@ -83,7 +82,7 @@ Meteor.subscribe('pages', arg1, arg2);
 orion.pages.collection.find(arg1, arg2);
 ```
 
-Pages comes with a built in helper for all your template that
+Pages comes with a built-in helper for all your templates that
 returns the pages (you must be subscribed first). 
 You can use it like this:
 
@@ -103,4 +102,4 @@ You can use it like this:
 {{/ each }}
 ```
 
-> When you call path() on a page, it will return the path to the page. Its important to use this, because the url might change
+> When you call path() on a page, it will return the path to the page. It's important to use this, because the url might change.

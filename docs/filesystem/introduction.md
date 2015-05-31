@@ -1,7 +1,7 @@
 # Filesystem
 
-The filesystem module is a unified upload system that keep track
-of all the files that are uploaded to orion and use any provider
+The filesystem module is a unified upload system that keeps track
+of all the files that are uploaded to orion, using any provider
 you want.
 
 ## Getting Started
