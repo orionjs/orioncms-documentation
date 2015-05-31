@@ -4,7 +4,7 @@ Introduction to collections
 
 ## Getting Started
 
-To create a orion collection just replace ```Mongo.Collection``` with ```orion.collection```, 
+To create an orion collection just replace ```Mongo.Collection``` with ```orion.collection```, 
 the rest will be done automatically.
 
 ```js
@@ -17,9 +17,9 @@ myCollection = new orion.collection(name, options);
 
 **Options**
 
-- ```singularName``` **String**. The name of one of this items.
+- ```singularName``` **String**. The name of one of these items.
 
-- ```pluralName``` **String**. The name of more than one of this items.
+- ```pluralName``` **String**. The name of more than one of these items.
 
 - ```link.title``` **String**. The title of the link in the sidebar.
 
@@ -34,13 +34,13 @@ Example:
 
 ```js
 Posts = new orion.collection('posts', {
-  singularName: 'post', // The name of one of this items
-  pluralName: 'posts', // The name of more than one of this items
+  singularName: 'post', // The name of one of these items
+  pluralName: 'posts', // The name of more than one of these items
   link: {
     /**
      * The text that you want to show in the sidebar.
      * The default value is the name of the collection, so
-     * in this case is not necesary
+     * in this case it is not necessary.
      */
     title: 'Posts' 
   },
@@ -65,14 +65,13 @@ Posts = new orion.collection('posts', {
 
 ### Set Schema
 
-If you set the schema of the collection orion with create the respective forms
-for this collection.
+If you set the schema of the collection, orion will create the corresponding forms for it.
 
 ```js
 Posts.attachSchema(new SimpleSchema(schema));
 ```
 
-The process is exactly the same of ```aldeed:simple-schema```
+The process is exactly the same as that of [aldeed:simple-schema](https://github.com/aldeed/meteor-simple-schema)
 
 Example:
 
@@ -87,7 +86,7 @@ Posts.attachSchema(new SimpleSchema({
   },
   /**
    * The file attribute is a custom orion attribute
-   * This is where orion do the magic. Just set 
+   * This is where orion does its magic. Just set 
    * the attribute type and it will automatically
    * create the form for the file.
    * WARNING: the url of the image will not be saved in
@@ -98,14 +97,14 @@ Posts.attachSchema(new SimpleSchema({
       optional: true
   }),
   /**
-   * Here its the same with image attribute.
-   * summernote is a html editor.
+   * Here it's the same with an image attribute.
+   * summernote is an html editor.
    */
   body: orion.attribute('summernote', {
       label: 'Body'
   }),
   /**
-   * This attribute sets the user id of the user that created 
+   * This attribute sets the user id to that of the user that created 
    * this post automatically.
    */
   createdBy: orion.attribute('createdBy') 

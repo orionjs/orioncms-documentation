@@ -29,7 +29,7 @@ and entities (Schema).
 
 The attribute object relies on [aldeed:collection2](https://github.com/aldeed/meteor-collection2) and
 [aldeed:autoform](https://github.com/aldeed/meteor-autoform).
-So everything that is supported in [aldeed:autoform](https://github.com/aldeed/meteor-autoform)
+This means that everything that is supported in [aldeed:autoform](https://github.com/aldeed/meteor-autoform)
 is supported in orion.
 
 You can check the [documentation](https://github.com/aldeed/meteor-autoform).
@@ -75,7 +75,7 @@ to learn more about attributes**
 
 In addition to the infinite posibilities that
 [aldeed:autoform](https://github.com/aldeed/meteor-autoform)
-give us, Orion has custom attributes to make things even easier.
+gives us, Orion has custom attributes to make things even easier.
 
 ### Using Orion Attributes
 
@@ -129,7 +129,7 @@ Posts.attachSchema(new SimpleSchema({
 
 ### Creating Orion Attributes
 
-You can create orion attribute to have instant
+You can create orion attributes to have instant
 solutions and integrated solutions for the orion 
 dictionary and entities.
 
@@ -146,11 +146,11 @@ are passed directly to [autoform](https://github.com/aldeed/meteor-autoform),
 check here https://github.com/aldeed/meteor-autoform#defining-custom-input-types.
 
 - ```columnTemplate``` **String**. The name of the template to display
-on the entity list table. The value of the attribute will be the data of
+on the entity list table. The value of the attribute will be the data of the
 template.
 
 - ```getSchema``` **Function**. A function that should return the
-[schema](https://github.com/aldeed/meteor-simple-schema) of the attribue.
-Sometimes its a [value](https://github.com/orionjs/froala-editor/blob/master/lib/attribute.js#L4)
+[schema](https://github.com/aldeed/meteor-simple-schema) of the attribute.
+Sometimes it's a [value](https://github.com/orionjs/froala-editor/blob/master/lib/attribute.js#L4)
 and sometimes an [object](https://github.com/orionjs/file-attribute/blob/master/lib/attribute.js#L4).
 

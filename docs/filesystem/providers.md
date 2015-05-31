@@ -1,7 +1,7 @@
 # Filesystem Providers
 
 You can setup a provider and orion will automatically upload 
-all the files through this, and all packages in compatible with orion should too.
+all the files through this, and all packages compatible with orion should too.
 
 ### Provider Upload
 
@@ -14,7 +14,7 @@ But the only important thing is ```option.fileList```, which is equivalent
 to ```$(".fileinput")[0].files```. It only contains one file.
 
 - ```success(publicUrl, [meta])``` **Function**. When the file is uploaded call this function so orion
-can register the file in the database and we can see it in the admin.
+can register the file in the database and we can see it in the admin interface.
 
   - ```publicUrl``` **String**. The url of the uploaded file.
 
