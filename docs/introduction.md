@@ -62,6 +62,10 @@ If you want to help translating Orion to your language follow the [instructions]
 
 - [brightbind:orion-gridfs](https://github.com/brightbind/orion-gridFS/)
 
+**Languages:**
+
+- [jorisroling:orion-lang-nl](https://github.com/jorisroling/orion-lang-nl) Dutch
+
 **Integrations:**
 
 - [nicolaslopezj:orion-ga](https://github.com/nicolaslopezj/orion-ga) Google analytics.
