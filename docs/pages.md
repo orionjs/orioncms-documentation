@@ -76,10 +76,10 @@ orion.pages.addTemplate({
 To list pages you have to **subscribe**.
 
 ```js
-// This
-Meteor.subscribe('pages', arg1, arg2);
-// Will return this
-orion.pages.collection.find(arg1, arg2);
+// Subscribe to all pages
+Meteor.subscribe('pages');
+// Subscribe to a page by url
+Meteor.subscribe('page', 'contact-me');
 ```
 
 Pages comes with a built-in helper for all your templates that
