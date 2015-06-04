@@ -45,6 +45,10 @@
           "slug": "file-attribute"
         },
         {
+          "title": "Images",
+          "slug": "image-attribute"
+        },
+        {
           "title": "Text Editors",
           "slug": "text-editors"
         }
@@ -132,6 +136,11 @@
       "title": "File Attribute",
       "slug": "file-attribute",
       "file": "attributes/file-attribute.md"
+    },
+    {
+      "title": "Image Attribute",
+      "slug": "image-attribute",
+      "file": "attributes/image-attribute.md"
     },
     {
       "title": "Text Editors",

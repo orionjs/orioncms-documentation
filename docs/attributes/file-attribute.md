@@ -1,6 +1,7 @@
 # File Attribute
 
-The file attribute is perfect to save files or images in entities or the dictionary.
+The file attribute is perfect to save files in entities or the dictionary. 
+For images, use image-attribute.
 It's integrated with ```orionjs:filesystem```
 
 The file attribute is a **object**. It has the following attributes:
