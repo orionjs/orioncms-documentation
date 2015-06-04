@@ -9,7 +9,7 @@ The image attribute is a **object**. It has the following attributes:
 
 - ```fileId``` **String**. The id of the ```orionjs:filesystem``` file.
 
-- ```info``` **Object**. Information about the image.
+- ```info``` **Info**. Information about the image.
 
 **Info**
 
