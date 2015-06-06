@@ -17,17 +17,11 @@ The image attribute is a **object**. It has the following attributes:
 
 - ```height``` **Number**. The height of the image.
 
-- ```primaryColor``` **Color**. The primary color of the image, in rgb.
+- ```backgroundColor``` **String**. The background color of the image, in hex (Example: #333333).
 
-- ```pallete``` **[Color]**. A color pallete of the image.
+- ```primaryColor``` **String**. The primary color of the image, in hex.
 
-**Color**
-
-- ```r``` **Number**. Red color, from 0 to 255.
-
-- ```g``` **Number**. Green color, from 0 to 255.
-
-- ```b``` **Number**. Blue color, from 0 to 255.
+- ```secondaryColor``` **String**. The secondary color of the image, in hex.
 
 ## Getting Started
 
