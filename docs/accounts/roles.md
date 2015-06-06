@@ -74,7 +74,7 @@ Where ```myCollection``` is the name of the collection.
 - ```collections.myCollection.remove``` Remove a document. Input: ```userId, doc```.
 - ```collections.myCollection.showCreate``` Show the create button in the admin.
 - ```collections.myCollection.showUpdate``` Show the update button/sends the user to the update form. Input: ```doc```.
-- ```collections.myCollection.showUpdate``` Show the remove button. Input: ```doc```.
+- ```collections.myCollection.showRemove``` Show the remove button. Input: ```doc```.
 
 **App Configuration**
 
