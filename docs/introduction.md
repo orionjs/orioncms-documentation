@@ -25,6 +25,16 @@ or
 meteor add materialize:materialize orionjs:materialize
 ```
 
+And now 
+
+```sh
+meteor
+```
+
+And now go
+
+[http://localhost:3000/admin](http://localhost:3000/admin)
+
 #### Preview
 
 [orion-example.meteor.com](http://orion-example.meteor.com)
@@ -68,6 +78,8 @@ If you want to help translating Orion to your language follow the [instructions]
 
 - [jorisroling:orion-lang-nl](https://github.com/jorisroling/orion-lang-nl) Dutch
 - [pierreeric:orion-lang-fr](https://atmospherejs.com/pierreeric/orion-lang-fr) French
+- [loongmxbt:orion-lang-zh-cn](https://github.com/loongmxbt/orion-lang-zh-cn) Simplified Chinese
+- [goooseman:orion-lang-ru](https://github.com/goooseman/orion-lang-ru) Russian
 
 **Integrations:**
 
