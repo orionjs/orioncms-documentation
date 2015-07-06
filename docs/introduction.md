@@ -14,10 +14,12 @@ meteor add orionjs:core
 And now decide which one to use
 
 ```sh
-meteor add twbs:bootstrap orionjs:bootstrap
+meteor add twbs:bootstrap fortawesome:fontawesome orionjs:bootstrap
 ```
 
-*Either ```twbs:bootstrap``` or similar*
+*Either `twbs:bootstrap` or similar*
+
+*Either `fortawesome:fontawesome` or similar*
 
 or
 
@@ -25,7 +27,7 @@ or
 meteor add materialize:materialize orionjs:materialize
 ```
 
-And now 
+And now
 
 ```sh
 meteor
