@@ -5,7 +5,14 @@ Orion is very flexible and you can customize almost any aspect of the admin.
 ## Adding links
 
 All the links that you see in the admin panel are saved in a local collection.
-Each link has the following attributes:
+
+To add links call this function:
+
+```js
+orion.links.add(options);
+```
+
+**options**
 
 - ```index``` **Number**. Optinal. Orion will order the links by this key. If not set, it will not appear on the list.
 
