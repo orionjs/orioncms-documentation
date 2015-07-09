@@ -61,6 +61,7 @@ Example:
 ```
 ```js
 orion.pages.addTemplate({
+    layout: ReactiveTemplates.get('layout'),
     template: 'pagesSimple', 
     name: 'Simple',
     description: 'Simple template'
