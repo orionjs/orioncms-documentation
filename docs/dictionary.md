@@ -32,7 +32,7 @@ Example:
 ```js
 orion.dictionary.addDefinition('description', 'site', {
     type: String,
-    label: "Description"
+    label: 'Description'
 });
 ```
 
@@ -60,4 +60,17 @@ or other JavaScript files.
 
 ```js
 var description = orion.dictionary.get('site.description', 'No description');
+```
+
+### Default value
+
+You can set a default value for a dictionary definition while creating it.
+Just add the ```defaultValue``` key in the schema:
+
+```js
+orion.dictionary.addDefinition('description', 'site', {
+    type: String,
+    label: 'Description',
+    defaultValue: 'My description'
+});
 ```
