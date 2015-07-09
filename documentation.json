@@ -74,6 +74,10 @@
           "slug": "filesystem-providers"
         }
       ]
+    },
+    {
+      "title": "Customization",
+      "slug": "customization"
     }
   ],
   "pages": [
@@ -151,6 +155,11 @@
       "title": "Basic Attributes",
       "slug": "basic-attributes",
       "file": "attributes/basic-attributes.md"
+    },
+    {
+      "title": "Customization",
+      "slug": "customization",
+      "file": "customization.md"
     }
   ]
 }
