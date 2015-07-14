@@ -27,3 +27,28 @@ orion.links.add(options);
 - ```activeRouteRegex``` **String**. Optional. The prefix that indicates if the link is active.
 
 - ```permission``` **String**. Optional. The name of the Roles action that is needed to be showed.
+
+#### Collection links
+
+When you define a collection orion will create a link with identifier ```collections-collectionName```.
+If you want to override any option of the link you can do it in the ```link``` key while defining the collection.
+
+Example: 
+```js
+Comments = new orion.collection('comments', {
+  singularName: 'comment',
+  pluralName: 'comments',
+  title: 'Comments',
+  link: {
+    title: 'Comments',
+    index: 100,
+    parent: 'collections-posts' // to show it under the posts collection link
+  },
+  tabular: {
+    columns: [
+      { data: 'message', title: 'Message' }
+    ]
+  }
+});
+
+```
