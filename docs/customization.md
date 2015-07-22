@@ -86,3 +86,28 @@ ReactiveTemplates.set('collections.posts.delete', 'myCustomTemplate');
 ```
 
 > For more info with Reactive Templates go to the project page http://github.com/nicolaslopezj/reactive-templates
+
+#### Collection links
+
+When you define a collection orion will create a link with identifier ```collections-collectionName```.
+If you want to override any option of the link you can do it in the ```link``` key while defining the collection.
+
+Example: 
+```js
+Comments = new orion.collection('comments', {
+  singularName: 'comment',
+  pluralName: 'comments',
+  title: 'Comments',
+  link: {
+    title: 'Comments',
+    index: 100,
+    parent: 'collections-posts' // to show it under the posts collection link
+  },
+  tabular: {
+    columns: [
+      { data: 'message', title: 'Message' }
+    ]
+  }
+});
+
+```
