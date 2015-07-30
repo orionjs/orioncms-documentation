@@ -1,7 +1,7 @@
 # Roles
 
-Orion uses ```nicolaslopezj:roles``` for roles. 
-Basically this package let us define actions and later assign 
+Orion uses ```nicolaslopezj:roles``` for roles.
+Basically this package let us define actions and later assign
 allow/deny rules for that action.
 
 You can check the full documentation of ```nicolaslopezj:roles``` [here](http://github.com/nicolaslopezj/roles).
@@ -92,13 +92,40 @@ Below is a list of the helpers that Orion uses.
 
 Where ```myCollection``` is the name of the collection.
 
-- ```collections.myCollection.indexFilter``` The filter of the results that the user can view in the admin. 
+- ```collections.myCollection.indexFilter``` The filter of the results that the user can view in the admin.
 Example: ```{ createdBy: this.userId }```. Filters will be joined with $or comparator.
 
 
 **Dictionary**
 
-- ```dictionary.allowedCategories``` The categories that the user can edit in the admin. 
+- ```dictionary.allowedCategories``` The categories that the user can edit in the admin.
 The union of all the allowedCategories will be the result.
 
+## Example
 
+How to give permissions to a role over a collection.
+
+```js
+/*
+ * First you must define the role
+ */
+myRole = new Roles.Role('my-role');
+
+/**
+ * Allow the actions of the collection
+ */
+myRole.allow('collections.myCollection.index', true); // Allows the role to see the link in the sidebar
+myRole.allow('collections.myCollection.insert', true); // Allows the role to insert documents
+myRole.allow('collections.myCollection.update', true); // Allows the role to update documents
+myRole.allow('collections.myCollection.remove', true); // Allows the role to remove documents
+myRole.allow('collections.myCollection.showCreate', true); // Makes the "create" button visible
+myRole.allow('collections.myCollection.showUpdate', true); // Allows the user to go to the update view
+myRole.allow('collections.myCollection.showRemove', true); // Shows the delete button on the update view
+
+/**
+ * Set the index filter.
+ * This part is very important and sometimes is forgotten.
+ * Here you must specify which documents the role will be able to see in the index route
+ */
+myRole.helper('collections.myCollection.indexFilter', {}); // Allows the role to se all documents
+```
