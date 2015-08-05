@@ -23,6 +23,8 @@ The image attribute is a **object**. It has the following attributes:
 
 - ```secondaryColor``` **String**. The secondary color of the image, in hex.
 
+> From version 1.3, you can use ```images``` to save a array of images.
+
 ## Getting Started
 
 ```sh
@@ -34,7 +36,7 @@ meteor add orionjs:image-attribute
 Adding to the dictionary
 
 ```js
-orion.dictionary.addDefinition('logo', 'site', 
+orion.dictionary.addDefinition('logo', 'site',
   orion.attribute('image', {
       label: 'Site Logo',
       optional: true
