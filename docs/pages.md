@@ -28,13 +28,13 @@ When a user requests the url for that page, orion will load the template with th
 
 ### Create a new template
 
-To add pages you must create at least one template. 
-Each template comes with a schema (like an entity) and with 
+To add pages you must create at least one template.
+Each template comes with a schema (like an entity) and with
 a meteor html template.
 
 ```js
 orion.pages.addTemplate(options, schema)
-``` 
+```
 
 - ```schema``` **[Schema](https://github.com/orionjs/core/tree/master/attributes)**. The schema of the template.
 It comes with *url*, and *title*.
@@ -62,7 +62,7 @@ Example:
 ```js
 orion.pages.addTemplate({
     layout: 'layout',
-    template: 'pagesSimple', 
+    template: 'pagesSimple',
     name: 'Simple',
     description: 'Simple template'
 }, {
@@ -84,7 +84,7 @@ Meteor.subscribe('page', 'contact-me');
 ```
 
 Pages comes with a built-in helper for all your templates that
-returns the pages (you must be subscribed first). 
+returns the pages (you must be subscribed first).
 You can use it like this:
 
 ```html
@@ -104,3 +104,12 @@ You can use it like this:
 ```
 
 > When you call path() on a page, it will return the path to the page. It's important to use this, because the url might change.
+
+### Loading and not found templates
+
+To override the default loading and "not found" templates do:
+
+```js
+ReactiveTemplates.set('pages.loading', 'myLoadingTemplate');
+ReactiveTemplates.set('pages.notFound', 'myNotFoundTemplate');
+```
