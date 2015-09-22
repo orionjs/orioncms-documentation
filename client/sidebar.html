@@ -1,0 +1,13 @@
+<template name="sidebar">
+  {{# each branch.sections }}
+    <h4 class="main-section">{{ title }}</h4>
+
+    <ul>
+      {{# each childs }}
+        <li>
+          <a href="#" data-section="{{ section }}">{{ title }}</a>
+        </li>
+      {{/ each }}
+    </ul>
+  {{/ each }}
+</template>

@@ -1,0 +1,10 @@
+<template name="index">
+  <div class="container">
+      <div class="sidebar">
+        {{> sidebar }}
+      </div>
+      <div class="docs">
+        {{# markdown }}{{ doc.content }}{{/ markdown }}
+      </div>
+  </div>
+</template>

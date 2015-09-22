@@ -1,4 +1,5 @@
 # Orion Documentation
-[Orion](https://github.com/orionjs/core) is a CMS built on Meteor.
 
-This project contains the documentation for orion v1.0
+This repository contains the code of [docs.orionjs.org](http://docs.orionjs.org).
+
+If you want to contribute with the documentation go to [orionjs/orion](https://github.com/orionjs/orion).
