@@ -1,5 +1,14 @@
 @pre-background-color: rgba(238, 238, 238, 0.35);
 
+code {
+  font-family: monospace;
+  font-size: 1.15rem;
+  background: @pre-background-color;
+  border: 1px solid darken(@pre-background-color, 10%);
+  padding: 0 4px;
+  border-radius: 2px;
+}
+
 pre {
   background: @pre-background-color;
   border-radius: 3px;
@@ -7,15 +16,9 @@ pre {
 
   code {
     font-size: 1rem;
-  }
-}
-
-li {
-  code {
-    font-family: monospace;
-    font-size: 1.2rem;
-    background: @pre-background-color;
-    padding: 0 4px;
+    line-height: 1.5rem;
+    border: none;
+    padding: 0;
     border-radius: 2px;
   }
 }
