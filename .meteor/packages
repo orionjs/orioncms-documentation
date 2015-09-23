@@ -24,3 +24,5 @@ check
 markdown
 simple:highlight.js
 meteorhacks:unblock
+meteorhacks:picker
+npm-dependencies

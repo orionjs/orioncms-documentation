@@ -41,6 +41,7 @@ markdown@1.0.5
 meteor@1.1.7
 meteor-base@1.0.1
 meteorhacks:meteorx@1.0.2
+meteorhacks:picker@1.0.3
 meteorhacks:unblock@1.1.0
 minifiers@1.1.7
 minimongo@1.0.9
@@ -49,6 +50,7 @@ mobile-status-bar@1.0.6
 mongo@1.1.1
 mongo-id@1.0.1
 mongo-livedata@1.0.9
+npm-dependencies@1.0.0
 npm-mongo@1.4.39_1
 observe-sequence@1.0.7
 ordered-dict@1.0.4
