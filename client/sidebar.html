@@ -1,13 +1,25 @@
 <template name="sidebar">
-  {{# each branch.sections }}
-    <h4 class="main-section">{{ title }}</h4>
+  {{# if Template.subscriptionsReady }}
+    {{# if branch }}
+      {{# each branch.sections }}
+        <h4 class="main-section">{{ title }}</h4>
 
-    <ul>
-      {{# each childs }}
-        <li>
-          <a href="#" data-section="{{ section }}">{{ title }}</a>
-        </li>
+        <ul>
+          {{# each childs }}
+            <li>
+              <a href="#" data-section="{{ section }}">{{ title }}</a>
+            </li>
+          {{/ each }}
+        </ul>
       {{/ each }}
-    </ul>
-  {{/ each }}
+      <p class="center-align">
+        <code>{{ branchName }}</code>
+      </p>
+    {{ else }}
+      <p>
+        <b>Branch {{ branchName }} not found</b>
+      </p>
+    {{/ if }}
+  {{ else }}
+  {{/ if }}
 </template>

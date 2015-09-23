@@ -10,8 +10,11 @@ Template.sidebar.helpers({
   branch: function() {
     var branch = FlowRouter.getParam('branch');
     return Branches.findOne({ branch: branch });
+  },
+  branchName: function() {
+    return FlowRouter.getParam('branch');
   }
-})
+});
 
 Template.sidebar.events({
   'click a[data-section]': function(event, template) {
