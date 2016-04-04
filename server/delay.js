@@ -1,4 +1,4 @@
-Meteor.startup(function() {
+/*Meteor.startup(function() {
   var rootUrl = process.env.ROOT_URL;
   if (rootUrl !== 'http://localhost:3000/') {
     return;
@@ -23,3 +23,4 @@ Meteor.startup(function() {
     };
   });
 });
+*/
